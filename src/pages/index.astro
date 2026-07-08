@@ -1,0 +1,458 @@
+---
+import '../styles/home.css';
+---
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>گالری لومیر | Lumière Art</title>
+</head>
+<body>
+
+    <div class="hero-wrapper">
+        <div class="eclipse-glow"></div>
+		<div class="eclipse-glow"></div>
+		<div class="noise-texture"></div>
+		<!-- ذرات ریز درخشان درون هاله نور -->
+<div class="glow-particles">
+    <div class="particle p-1"></div>
+    <div class="particle p-2"></div>
+    <div class="particle p-3"></div>
+    <div class="particle p-4"></div>
+</div>
+
+        <header class="main-header">
+            <nav class="nav-links">
+                <a href="/contact" class="nav-item">ارتباط با ما</a>
+                <a href="#about" class="nav-item">اصالت ما</a>
+                <a href="#portfolio" class="nav-item">کالکشن</a>
+                <a href="#curation" class="nav-item">نمایشگاه</a>
+            </nav>
+            <div class="brand-identity">
+                <span class="header-brand-name">LUMIÈRE ART</span>
+                <img src="/images/logo.png" alt="Lumière" class="header-logo-img" />
+            </div>
+        </header>
+
+        <main class="hero-content">
+            
+            <div class="side-details">
+                <div class="detail-block">
+                    <span class="detail-title-en">UNCOMPROMISING LUXURY</span>
+                    <span class="detail-title-fa">لوکس بدون سازش</span>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="detail-block">
+                    <span class="detail-title-en">HERITAGE ARTISTRY</span>
+                    <span class="detail-title-fa">هنر اصیل دست</span>
+                </div>
+            </div>
+
+            <div class="main-titles">
+                <h1 class="hero-title-en">EXPERIENCE DISTINCTION</h1>
+                <h2 class="hero-title-fa">تجربه‌ای متمایز از اصالت و نور</h2>
+                <p class="hero-subtitle">نمایشگاه اختصاصی و عمده گالری شیشه‌گری لومیر (کارگاه نوری)</p>
+                
+                <a href="/contact" class="btn-enter-gallery">
+                    <span>ورود به گالری اختصاصی</span>
+                </a>
+            </div>
+
+        </main>
+
+        <div class="sparkle-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M12 0L14.8 9.2L24 12L14.8 14.8L12 24L9.2 14.8L0 12L9.2 9.2L12 0Z" fill="#F3A847" opacity="0.4"/>
+            </svg>
+        </div>
+
+    </div>
+
+    <!-- ============================================================
+         بخش ۱: دروازه VIP - احراز هویت همکار و بنکدار
+         ============================================================ -->
+    <section id="vip-gate" class="vip-gate-section" aria-label="درخواست دسترسی به کاتالوگ عمده">
+        <div class="vip-gate-inner">
+            <div class="vip-gate-badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 0L14.8 9.2L24 12L14.8 14.8L12 24L9.2 14.8L0 12L9.2 9.2L12 0Z" fill="#F3A847"/>
+                </svg>
+                <span>دسترسی اختصاصی</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 0L14.8 9.2L24 12L14.8 14.8L12 24L9.2 14.8L0 12L9.2 9.2L12 0Z" fill="#F3A847"/>
+                </svg>
+            </div>
+
+            <div class="vip-gate-content">
+                <div class="vip-gate-text">
+                    <p class="vip-gate-label-en">B2B PARTNER ACCESS</p>
+                    <h2 class="vip-gate-title">کاتالوگ و قیمت عمده</h2>
+                    <p class="vip-gate-subtitle">
+                        قیمت‌گذاری خرده‌فروشی ما در این صفحه نمایش داده نمی‌شود. دسترسی به لیست کامل قیمت عمده، تخفیف‌های پله‌ای و کاتالوگ اختصاصی تنها برای همکاران تأیید‌شده است.
+                    </p>
+                    <ul class="vip-benefits-list" aria-label="مزایای همکاری عمده">
+                        <li class="vip-benefit-item">
+                            <span class="benefit-icon" aria-hidden="true">◈</span>
+                            <span>قیمت عمده با تخفیف ۳۰ تا ۵۰ درصدی</span>
+                        </li>
+                        <li class="vip-benefit-item">
+                            <span class="benefit-icon" aria-hidden="true">◈</span>
+                            <span>کاتالوگ کامل ۲۰۰+ مدل دست‌ساز</span>
+                        </li>
+                        <li class="vip-benefit-item">
+                            <span class="benefit-icon" aria-hidden="true">◈</span>
+                            <span>امکان سفارش اختصاصی (Custom Order)</span>
+                        </li>
+                        <li class="vip-benefit-item">
+                            <span class="benefit-icon" aria-hidden="true">◈</span>
+                            <span>مدیر فروش اختصاصی برای هر همکار</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="vip-gate-form-wrap">
+                    <div class="vip-gate-glass">
+                        <p class="vip-form-heading">درخواست دسترسی به قیمت عمده</p>
+                        <form class="vip-form" action="/contact" method="GET" novalidate>
+                            <div class="vip-form-group">
+                                <label for="vip-business-name" class="vip-label">نام فروشگاه / شرکت</label>
+                                <input type="text" id="vip-business-name" name="business" class="vip-input" placeholder="مثال: گالری پارس" autocomplete="organization" required />
+                            </div>
+                            <div class="vip-form-group">
+                                <label for="vip-phone" class="vip-label">شماره تماس مستقیم</label>
+                                <input type="tel" id="vip-phone" name="phone" class="vip-input" placeholder="۰۹۱۵ ..." dir="ltr" autocomplete="tel" required />
+                            </div>
+                            <div class="vip-form-group">
+                                <label for="vip-city" class="vip-label">شهر فعالیت</label>
+                                <input type="text" id="vip-city" name="city" class="vip-input" placeholder="مشهد" autocomplete="address-level2" required />
+                            </div>
+                            <button type="submit" class="vip-submit-btn">
+                                <span>ارسال درخواست دسترسی</span>
+                                <span class="btn-arrow" aria-hidden="true">←</span>
+                            </button>
+                        </form>
+                        <p class="vip-privacy-note">اطلاعات شما محرمانه است و تنها برای تأیید همکاری استفاده می‌شود.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         بخش ۲: اصالت ۳۵ ساله - کارگاه نوری مشهد
+         ============================================================ -->
+    <section id="about" class="heritage-section" aria-label="تاریخچه و اصالت گالری لومیر">
+        <div class="heritage-inner">
+
+            <div class="heritage-header">
+                <p class="section-label-en">HERITAGE &amp; TRUST · MASHHAD · EST. 1369</p>
+                <h2 class="heritage-title">ریشه‌ای به عمق ۳۵ سال</h2>
+                <p class="heritage-title-sub">از کارگاه نوری تا گالری لومیر — همان دست، همان آتش، همان اصالت</p>
+            </div>
+
+            <div class="heritage-content">
+                <div class="heritage-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">۱۳۶۹</div>
+                        <div class="timeline-body">
+                            <h3 class="timeline-event">تأسیس کارگاه نوری</h3>
+                            <p class="timeline-desc">استاد نوری کارگاه شیشه‌گری خود را در قلب مشهد با دو کوره سنتی و یک رویا بنا نهاد. اولین محصولات دست‌ساز به بازار بزرگ مشهد عرضه شد.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">۱۳۸۵</div>
+                        <div class="timeline-body">
+                            <h3 class="timeline-event">توسعه تولید و شبکه توزیع</h3>
+                            <p class="timeline-desc">گسترش ظرفیت کارگاه به ۱۲ کوره دمی و تأمین عمده برای بیش از ۸۰ فروشگاه دکوراسیون در مشهد، تهران و سبزوار.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">۱۴۰۳</div>
+                        <div class="timeline-body">
+                            <h3 class="timeline-event">تولد گالری لومیر</h3>
+                            <p class="timeline-desc">با حفظ میراث ۳۵ ساله و معرفی هویت برند لومیر، خط تولید لوکس با طراحی‌های اختصاصی برای بازار تشریفات و هتل‌داری راه‌اندازی شد.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heritage-right">
+                    <div class="heritage-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">۳۵+</span>
+                            <span class="stat-label">سال سابقه تولید</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">۲۰۰+</span>
+                            <span class="stat-label">مدل دست‌ساز</span>
+                        </div>
+                        <div class="stat-divider" aria-hidden="true"></div>
+                        <div class="stat-item">
+                            <span class="stat-number">۸۰+</span>
+                            <span class="stat-label">همکار فعال</span>
+                        </div>
+                    </div>
+
+                    <div class="heritage-location-card" role="region" aria-label="موقعیت کارگاه در مشهد">
+                        <div class="location-card-header">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#F3A847"/>
+                            </svg>
+                            <span>کارگاه تولید — مشهد</span>
+                        </div>
+                        <div class="location-map-visual" aria-label="نمای مصور موقعیت کارگاه در مشهد">
+                            <div class="map-grid" aria-hidden="true">
+                                <div class="map-street map-h" style="top:30%; left:0; width:100%"></div>
+                                <div class="map-street map-h" style="top:60%; left:0; width:100%"></div>
+                                <div class="map-street map-v" style="top:0; left:35%; height:100%"></div>
+                                <div class="map-street map-v" style="top:0; left:65%; height:100%"></div>
+                                <div class="map-block" style="top:5%; left:5%; width:25%; height:20%"></div>
+                                <div class="map-block" style="top:5%; left:40%; width:20%; height:20%"></div>
+                                <div class="map-block" style="top:5%; left:70%; width:25%; height:20%"></div>
+                                <div class="map-block" style="top:35%; left:5%; width:25%; height:20%"></div>
+                                <div class="map-block" style="top:35%; left:70%; width:25%; height:20%"></div>
+                                <div class="map-block" style="top:65%; left:5%; width:25%; height:30%"></div>
+                                <div class="map-block" style="top:65%; left:40%; width:20%; height:30%"></div>
+                                <div class="map-block" style="top:65%; left:70%; width:25%; height:30%"></div>
+                            </div>
+                            <div class="map-pin-group">
+                                <div class="map-pin-pulse" aria-hidden="true"></div>
+                                <div class="map-pin" aria-hidden="true">
+                                    <svg width="20" height="28" viewBox="0 0 24 32" fill="none">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 9 12 20 12 20S24 21 24 12C24 5.37 18.63 0 12 0zm0 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" fill="#F3A847"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="map-label-workshop" aria-hidden="true">کارگاه نوری</div>
+                        </div>
+                        <div class="location-card-footer">
+                            <span class="location-address">مشهد مقدس · صنایع دستی و شیشه‌گری سنتی</span>
+                            <span class="location-tag">سازنده اصلی — بدون واسطه</span>
+                        </div>
+                    </div>
+
+                    <blockquote class="heritage-quote">
+                        <p>«ما محصول نمی‌فروشیم. ما ۳۵ سال از یک صنعتگر به جهان تحویل می‌دهیم.»</p>
+                        <cite>— استاد نوری، بنیان‌گذار کارگاه</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         بخش ۳: تضمین ارسال و لجستیک
+         ============================================================ -->
+    <section id="logistics" class="logistics-section" aria-label="تضمین ارسال و لجستیک">
+        <div class="logistics-inner">
+
+            <div class="logistics-header">
+                <p class="section-label-en">DELIVERY · GUARANTEE · LOGISTICS</p>
+                <h2 class="logistics-title">تضمین رسیدن — بدون شکست، بدون تأخیر</h2>
+            </div>
+
+            <div class="logistics-grid" role="list">
+                <article class="logistics-card" role="listitem">
+                    <div class="logistics-card-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#F3A847" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="logistics-card-title">تضمین ۱۰۰٪ شکست</h3>
+                    <p class="logistics-card-text">هر قطعه شیشه‌ای که در حمل‌ونقل آسیب ببیند، بدون هیچ سؤالی جایگزین می‌شود. بیمه حمل و تضمین کالا به صورت کامل بر عهده ماست.</p>
+                    <div class="logistics-card-tag">جایگزینی رایگان</div>
+                </article>
+
+                <article class="logistics-card logistics-card--featured" role="listitem">
+                    <div class="logistics-card-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="#F3A847" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="logistics-card-title">تأمین سریع مشهد</h3>
+                    <p class="logistics-card-text">تحویل درون‌شهری مشهد در ۲۴ ساعت کاری. برای سفارش‌های بالای ۵ میلیون تومان، حمل رایگان تا درب فروشگاه شما.</p>
+                    <div class="logistics-card-tag">تحویل ۲۴ ساعته</div>
+                </article>
+
+                <article class="logistics-card" role="listitem">
+                    <div class="logistics-card-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" stroke="#F3A847" stroke-width="1.5"/>
+                            <path d="M16 3H8a2 2 0 00-2 2v2h12V5a2 2 0 00-2-2z" stroke="#F3A847" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="logistics-card-title">بسته‌بندی استاندارد لوکس</h3>
+                    <p class="logistics-card-text">هر محصول در جعبه‌های اختصاصی لومیر با پَدگذاری دوجداره ارسال می‌شود. قابل استفاده مستقیم برای فروش با لوگو و برندینگ گالری شما.</p>
+                    <div class="logistics-card-tag">White-Label آماده</div>
+                </article>
+
+                <article class="logistics-card" role="listitem">
+                    <div class="logistics-card-icon" aria-hidden="true">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 12l9-9 9 9M5 10v9a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-9" stroke="#F3A847" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="logistics-card-title">تأمین هتل و تشریفات</h3>
+                    <p class="logistics-card-text">ظرفیت تولید و ارسال سفارش‌های حجمی هتل‌های ۵ستاره، سالن‌های عروسی و مجتمع‌های تجاری. موجودی انبار برای تحویل فوری حتی سفارش‌های بالای ۵۰۰ قطعه.</p>
+                    <div class="logistics-card-tag">ظرفیت صنعتی</div>
+                </article>
+            </div>
+
+            <div class="logistics-trust-bar" role="list" aria-label="شرکای تأمین">
+                <div class="trust-item" role="listitem">
+                    <span class="trust-icon" aria-hidden="true">⬡</span>
+                    <span>تأمین‌کننده رسمی هتل‌های مشهد</span>
+                </div>
+                <div class="trust-separator" aria-hidden="true"></div>
+                <div class="trust-item" role="listitem">
+                    <span class="trust-icon" aria-hidden="true">⬡</span>
+                    <span>عضو اتحادیه صنایع دستی خراسان</span>
+                </div>
+                <div class="trust-separator" aria-hidden="true"></div>
+                <div class="trust-item" role="listitem">
+                    <span class="trust-icon" aria-hidden="true">⬡</span>
+                    <span>دارنده گواهینامه کیفیت ملی</span>
+                </div>
+                <div class="trust-separator" aria-hidden="true"></div>
+                <div class="trust-item" role="listitem">
+                    <span class="trust-icon" aria-hidden="true">⬡</span>
+                    <span>بیمه حمل بین‌المللی</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         بخش ۴: کالکشن تشریفات و هتل‌داری
+         ============================================================ -->
+    <section id="portfolio" class="hospitality-section" aria-label="کالکشن تشریفات و هتل‌داری">
+        <div class="hospitality-inner">
+
+            <div class="hospitality-header">
+                <p class="section-label-en">HOSPITALITY COLLECTION · 5-STAR GRADE</p>
+                <h2 class="hospitality-title">نور دست‌ساز در فضاهای تشریفاتی</h2>
+                <p class="hospitality-subtitle">کالکشن اختصاصی لومیر برای لابی هتل‌های ۵ستاره، سالن‌های عروسی لوکس و مجتمع‌های تجاری مشهد</p>
+            </div>
+
+            <div class="hospitality-grid" role="list">
+                <article class="hosp-card hosp-card--wide" role="listitem">
+                    <div class="hosp-card-visual">
+                        <div class="hosp-glass-sculpture" aria-hidden="true">
+                            <div class="glass-hurricane large"></div>
+                            <div class="glass-hurricane medium"></div>
+                            <div class="glass-hurricane small"></div>
+                            <div class="glass-glow-floor"></div>
+                        </div>
+                    </div>
+                    <div class="hosp-card-info">
+                        <span class="hosp-card-category">Hurricane Lanterns · فانوس دستی</span>
+                        <h3 class="hosp-card-name">کالکشن طوفان نور</h3>
+                        <p class="hosp-card-desc">فانوس‌های دمیده دست در اندازه‌های میز، کنسول و کف. طراحی شده برای ایجاد فضای تشریفاتی در لابی هتل‌های مشهد.</p>
+                        <div class="hosp-card-specs">
+                            <span class="spec-tag">سفارش از ۱۰ عدد</span>
+                            <span class="spec-tag">۱۲ رنگ</span>
+                            <span class="spec-tag">Custom Size</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hosp-card" role="listitem">
+                    <div class="hosp-card-visual">
+                        <div class="hosp-glass-sculpture" aria-hidden="true">
+                            <div class="glass-vase tall"></div>
+                            <div class="glass-glow-floor"></div>
+                        </div>
+                    </div>
+                    <div class="hosp-card-info">
+                        <span class="hosp-card-category">Vases · گلدان</span>
+                        <h3 class="hosp-card-name">مجموعه ستون نور</h3>
+                        <p class="hosp-card-desc">گلدان‌های بلند دست‌ساز برای استقرار در ورودی و راهروهای هتل.</p>
+                        <div class="hosp-card-specs">
+                            <span class="spec-tag">ارتفاع ۴۰-۱۲۰cm</span>
+                            <span class="spec-tag">۸ فرم</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hosp-card" role="listitem">
+                    <div class="hosp-card-visual">
+                        <div class="hosp-glass-sculpture" aria-hidden="true">
+                            <div class="glass-bowl"></div>
+                            <div class="glass-glow-floor"></div>
+                        </div>
+                    </div>
+                    <div class="hosp-card-info">
+                        <span class="hosp-card-category">Table Settings · چیدمان میز</span>
+                        <h3 class="hosp-card-name">سرویس اتاق شاهانه</h3>
+                        <p class="hosp-card-desc">ست کامل چیدمان میز VIP، شامل جام، ظرف مرکزی و شمعدان برای رستوران‌های لاکچری.</p>
+                        <div class="hosp-card-specs">
+                            <span class="spec-tag">ست کامل ۱۲ نفره</span>
+                            <span class="spec-tag">لوگو سفارشی</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hosp-card" role="listitem">
+                    <div class="hosp-card-visual">
+                        <div class="hosp-glass-sculpture" aria-hidden="true">
+                            <div class="glass-chandelier" aria-hidden="true">
+                                <div class="chandelier-arm"></div>
+                                <div class="chandelier-arm"></div>
+                                <div class="chandelier-arm"></div>
+                                <div class="chandelier-drop d1"></div>
+                                <div class="chandelier-drop d2"></div>
+                                <div class="chandelier-drop d3"></div>
+                                <div class="chandelier-drop d4"></div>
+                                <div class="chandelier-drop d5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hosp-card-info">
+                        <span class="hosp-card-category">Chandeliers · لوستر</span>
+                        <h3 class="hosp-card-name">لوستر سفارشی لابی</h3>
+                        <p class="hosp-card-desc">لوسترهای شیشه‌ای دست‌ساز برای لابی و سالن‌های بزرگ. طراحی اختصاصی با هر ابعاد و رنگ‌بندی.</p>
+                        <div class="hosp-card-specs">
+                            <span class="spec-tag">طراحی اختصاصی</span>
+                            <span class="spec-tag">نصب رایگان مشهد</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="hospitality-cta">
+                <p class="hosp-cta-text">برای دریافت کاتالوگ کامل تشریفات و مشاوره انتخاب محصول با تیم لومیر تماس بگیرید</p>
+                <a href="/contact" class="hosp-cta-btn" aria-label="مشاوره سفارش تشریفاتی">
+                    <span>مشاوره سفارش تشریفاتی</span>
+                    <span class="btn-arrow" aria-hidden="true">←</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="footer-brand-name">LUMIÈRE ART</span>
+                <span class="footer-brand-fa">گالری لومیر</span>
+            </div>
+            <p class="footer-heritage">میراث ۳۵ ساله کارگاه نوری مشهد</p>
+            <div class="footer-links">
+                <a href="#vip-gate" class="footer-link">همکاری عمده</a>
+                <span class="footer-dot" aria-hidden="true">·</span>
+                <a href="#about" class="footer-link">اصالت ما</a>
+                <span class="footer-dot" aria-hidden="true">·</span>
+                <a href="#portfolio" class="footer-link">کالکشن</a>
+                <span class="footer-dot" aria-hidden="true">·</span>
+                <a href="/contact" class="footer-link">تماس</a>
+            </div>
+            <p class="footer-copy">© ۱۴۰۳ گالری لومیر — تمامی حقوق محفوظ است</p>
+        </div>
+    </footer>
+
+</body>
+</html>
